@@ -10,3 +10,8 @@ Bangladeshi Mobile Number's Regular Expressions
 Email Id's Regular Expressions
 
 ^([\w\.\-]+)@([\w\-]+)((\.(\w){2,3})+)$
+
+
+Minimum eight characters, at least one uppercase letter, one lowercase letter and one number
+
+^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)[a-zA-Z\d]{8,}$
